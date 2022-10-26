@@ -6,8 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var port = builder.Configuration["PORT"];
-builder.WebHost.UseUrls($"http://0.0.0.0:{port};http://localhost:3000");
 
 builder.Services.Configure<DbConfiguration>(builder.Configuration.GetSection("Default"));
 
