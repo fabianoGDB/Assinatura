@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace AssinaturaDigital.Exceptions
 {
     public class AssinaturaNaoCadastradaException : Exception

@@ -1,7 +1,4 @@
 ﻿using AssinaturaDigital.Entities;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace AssinaturaDigital.Repositories
 {
